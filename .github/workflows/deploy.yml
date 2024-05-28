@@ -16,7 +16,7 @@ jobs:
           bun-version: latest
       # Pick your own package manager and build script
       - run: bun install
-      - run: bun x nuxt build --preset github_pages
+      - run: bun run build --preset github_pages
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:

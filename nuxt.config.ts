@@ -12,5 +12,10 @@ export default defineNuxtConfig({
   seo: {
     redirectToCanonicalSiteUrl: true
   },
-  
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: ['/sitemap.xml', '/robots.txt']
+    }  
+  }
 })

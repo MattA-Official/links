@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxtjs/seo", "@nuxt/image", "nuxt-icons"]
+  modules: ["@nuxtjs/seo", "@nuxt/image", "nuxt-icons"],
+  css: ["~/assets/styles/global.css"],
 })

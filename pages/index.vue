@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <NuxtPicture />
+        <NuxtPicture src="/avatar.png" width="200" height="200" alt="Matt's Avatar" id="avatar" class="avatar"/>
         <header>
             <h1 id="name">Hi, I'm Matt 👋</h1>
             <p id="pronouns">they/them</p>
@@ -74,8 +74,16 @@ ul {
 }
 
 #pronouns {
-    font-size: 0.85rem;
-    color: #242424d8;
-    font-weight: 400;
+  font-size: 0.85rem;
+  color: #242424d8;
+  font-weight: 400;
+}
+
+.avatar {
+  margin: 0 auto;
+}
+
+.avatar img {
+  border-radius: 50%;
 }
 </style>

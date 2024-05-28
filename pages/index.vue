@@ -69,7 +69,7 @@ ul {
   transition: color 0.6s ease;
 }
 
-.links a:hover .nuxt-icon svg {
+.links a:hover .nuxt-icon svg, .links a:focus .nuxt-icon svg {
   color: #fff;
 }
 

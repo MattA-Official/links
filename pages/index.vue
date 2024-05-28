@@ -59,11 +59,18 @@ ul {
 .links a {
   display: inline-block;
   padding: 10px 20px;
+  text-decoration: none;
 }
 
 .nuxt-icon svg {
   width: 2em;
   height: 2em;
+  color: #000;
+  transition: 0.6s ease;
+}
+
+.links a:hover .nuxt-icon svg {
+  color: #fff;
 }
 
 #pronouns {

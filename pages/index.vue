@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <NuxtPicture src="/avatar.png" width="200" height="200" alt="Matt's Avatar" id="avatar" class="avatar"/>
+        <NuxtPicture src="/avatar.png" width="200" height="200" alt="Matt's Avatar" id="avatar" class="avatar" :placeholder="[200, 200, 75, 5]" format="webp"/>
         <header>
             <h1 id="name">Hi, I'm Matt 👋</h1>
             <p id="pronouns">they/them</p>

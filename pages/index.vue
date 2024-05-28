@@ -66,7 +66,7 @@ ul {
   width: 2em;
   height: 2em;
   color: #000;
-  transition: 0.6s ease;
+  transition: color 0.6s ease;
 }
 
 .links a:hover .nuxt-icon svg {
